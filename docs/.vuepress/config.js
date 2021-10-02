@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Hello VuePres2s',
     description: 'Just playing around',
-
+    base: '/blog/',
     themeConfig: {
         nav:[
             {
