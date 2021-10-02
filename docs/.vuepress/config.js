@@ -2,6 +2,9 @@ module.exports = {
     title: 'spokeen 的笔记',
     description: 'html,css,javascript',
     base: '/blog/',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     themeConfig: {
         nav:[
             {
