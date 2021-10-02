@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Hello VuePres2s',
-    description: 'Just playing around',
+    title: 'spokeen 的笔记',
+    description: 'html,css,javascript',
     base: '/blog/',
     themeConfig: {
         nav:[
@@ -34,7 +34,9 @@ module.exports = {
         },
         search: true,
         lastUpdated: 'Last Updated',
-        smoothScroll: true
+        smoothScroll: true,
+        repo: 'spokeen/blog',
+        repoLabel: 'Github',
     },
 
   }
