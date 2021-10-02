@@ -16,3 +16,5 @@ build/
 
 .pagedata.json.lock
 .vscode/
+
+.vuepress/dist/
