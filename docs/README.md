@@ -5,7 +5,7 @@ heroImage: /logo.png
 heroText: spokeen
 tagline:  有关前端的博客
 actionText: Get Started →
-actionLink: /computer/javascript/Reference.md
+actionLink: /computer/html/Html.md
 actionColor: red
 features:
 - title: 邮箱
