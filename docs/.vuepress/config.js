@@ -13,16 +13,7 @@ module.exports = {
             },
             {
                 text: '技术博客',
-                items: [
-                    {
-                        text: 'css',
-                        link: '/computer/css/Reference.md'
-                    },
-                    {
-                        text: 'javascript',
-                        link: '/computer/javascript/Reference.md'
-                    }
-                ]
+                link: '/computer/'
             },
             {
                 text: '开源项目',
@@ -31,16 +22,27 @@ module.exports = {
 
         ],
         sidebar:{
-            '/computer/css/': [
-                'Reference',
-                'Flex'
+            '/computer/': [
+                {
+                    title: 'css',
+                    path: '/computer/css/Reference',
+                    sidebarDepth: 2,
+                    children: [
+                        '/computer/css/Flex',
+                        '/computer/css/Reference'
+                    ]
+                },
+                {
+                    title: 'javascript',
+                    path: '/computer/javascript/Javascript',
+                    sidebarDepth: 2,
+                    children: [
+                        '/computer/javascript/Javascript',
+                        '/computer/javascript/Canvas2d',
+                        '/computer/javascript/Webgl'
+                    ]
+                }
             ],
-            '/computer/javascript/':[
-                '',
-                'Reference',
-                'Canvas2d',
-                'Webgl'
-            ]
         },
         search: true,
         lastUpdated: 'Last Updated',
