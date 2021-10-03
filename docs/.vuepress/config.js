@@ -24,12 +24,20 @@ module.exports = {
         sidebar:{
             '/computer/': [
                 {
-                    title: 'css',
-                    path: '/computer/css/Reference',
+                    title: 'html',
+                    path: '/computer/html/Html',
                     sidebarDepth: 2,
                     children: [
-                        '/computer/css/Flex',
-                        '/computer/css/Reference'
+                        '/computer/html/Html'
+                    ]
+                },
+                {
+                    title: 'css',
+                    path: '/computer/css/Css',
+                    sidebarDepth: 2,
+                    children: [
+                        '/computer/css/Css',
+                        '/computer/css/Flex'
                     ]
                 },
                 {
