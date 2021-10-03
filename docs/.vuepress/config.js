@@ -25,8 +25,8 @@ module.exports = {
                 ]
             },
             {
-                text: '散文生活',
-                link: '/life/'
+                text: '开源项目',
+                link: '/openProject/'
             }
 
         ],
@@ -36,7 +36,10 @@ module.exports = {
                 'Flex'
             ],
             '/computer/javascript/':[
-                'Reference'
+                '',
+                'Reference',
+                'Canvas2d',
+                'Webgl'
             ]
         },
         search: true,
