@@ -8,6 +8,10 @@ module.exports = {
     themeConfig: {
         nav:[
             {
+                text: '主页',
+                link: '/'
+            },
+            {
                 text: '技术博客',
                 items: [
                     {
