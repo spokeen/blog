@@ -47,8 +47,6 @@ lineJoin：线条转角的样式
 
 lineWidth：线条宽度
 
-clip()：路径剪裁
-
 drawFocusIfNeeded(element)：让当前路径或指定路径轮廓高亮
 
 getLineDash()：获取当前虚线的样式
@@ -170,6 +168,8 @@ isPointInStroke(x, y)：检测某个点是否在路径上
 ### 重置
 
 clearRect(x, y, width, height)：将一块矩形区域还原到初始状态
+
+clip()：路径剪裁
 
 
 
