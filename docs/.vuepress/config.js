@@ -49,6 +49,14 @@ module.exports = {
                         '/computer/javascript/Canvas2d',
                         '/computer/javascript/Webgl'
                     ]
+                },
+                {
+                    title: 'node',
+                    path: '/computer/node/Node',
+                    sidebarDepth: 2,
+                    children: [
+                        '/computer/node/Node'
+                    ]
                 }
             ],
         },
