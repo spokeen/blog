@@ -40,7 +40,9 @@ canvas：返回 `CanvasRenderingContext2D`  对应的 canvas 元素
 ```markdown
 描述：线条端点的样式
 可能的值：
-
+butt：默认值，左右两端都是矩形，且没有刚好等于距离
+round:左右两端是以 1/2 线宽的半圆，超出绘制长度
+square:左右两端是 1/2 线宽长度的矩形，且超出绘制长度
 ```
 
 lineJoin：线条转角的样式
