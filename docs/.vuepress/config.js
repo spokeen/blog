@@ -1,3 +1,4 @@
+const {imgUrlModify} = require('./enhanceApp');
 module.exports = {
     title: 'spokeen 的笔记',
     description: 'html,css,javascript',
@@ -84,5 +85,10 @@ module.exports = {
         repo: 'spokeen/blog',
         repoLabel: 'Github',
     },
-    plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom']
+    plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom'],
+    markdown: {
+        extendMarkdown: (md) => {
+            md.use(imgUrlModify)
+        }
+    }
   }
