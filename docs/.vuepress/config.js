@@ -1,3 +1,5 @@
+const parser = require('html-attribute-parser');
+const tag = require('html-tag');
 module.exports = {
     title: 'spokeen 的笔记',
     description: 'html,css,javascript',
@@ -85,5 +87,44 @@ module.exports = {
         repoLabel: 'Github',
     },
     plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom'],
-
+    markdown: {
+        extendMarkdown: md =>  {
+            md.use(function(md, option) {
+                md.core.ruler.after('inline', 'replace-src-link', ({ tokens, env }) => {
+                    for (let token of tokens) {
+              
+                      // markdown img tag
+                      if (token.type === 'inline' && token.children.length) {
+                        for (let child of token.children) {
+                          if (child.tag === 'img') {
+                            for (let attr of child.attrs) {
+                                if(attr[0] === 'src') {
+                                    attr[1] = '/blog' + attr[1]
+                                }
+                            }
+                          }
+                        }
+              
+                      // direct img tag
+                      } else if (token.type === 'html_block' && /^<img/.test(token.content)) {
+                        const element = parser(token.content);
+              
+                        for (let attr in element.attributes) {
+                          const value = attr === 'src' ? '/blog' + element.attributes[attr] : element.attributes[attr];
+                          if (value !== null && value !== undefined) {
+                            element.attributes[attr] = value;
+                          }
+                        }
+              
+                        token.content = tag(element.tagName, element.attributes);
+                      }
+                    }
+                  });
+        
+        
+            }, {
+                prefix: '/blog'
+            })
+        }
+    }
   }
