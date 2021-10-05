@@ -84,5 +84,5 @@ module.exports = {
         repo: 'spokeen/blog',
         repoLabel: 'Github',
     },
-    plugins: ['@vuepress/back-to-top']
+    plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom']
   }
