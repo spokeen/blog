@@ -85,6 +85,11 @@ module.exports = {
         smoothScroll: true,
         repo: 'spokeen/blog',
         repoLabel: 'Github',
+        editLinks: true,
+        docsDir: 'docs',
+        editLinkText: '有错误? edit',
+        nextLinks: false,
+        prevLinks: false
     },
     plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom'],
     markdown: {
@@ -128,3 +133,6 @@ module.exports = {
         }
     }
   }
+//   https://github.com/spokeen/blog/edit/master/docs/tool/README.md
+//   https://github.com/spokeen/blog/edit/master/tool/README.md
+//   https://github.com/spokeen/blog/blob/master/docs/tool/README.md
