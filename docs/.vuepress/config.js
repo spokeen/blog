@@ -18,6 +18,10 @@ module.exports = {
             {
                 text: '开源项目',
                 link: '/openProject/'
+            },
+            {
+                text: '软件工具',
+                link: '/tool/'
             }
 
         ],
@@ -59,6 +63,15 @@ module.exports = {
                     ]
                 }
             ],
+            '/openProject/': [
+
+            ],
+            '/tool/': [
+                {
+                    title: 'postman',
+                    path: '/tool/postman/Postman'
+                }
+            ]
         },
         search: true,
         lastUpdated: 'Last Updated',
