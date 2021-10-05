@@ -6,11 +6,15 @@ typora-root-url: ..\..\.vuepress\public
 
 目录
 
-- 脚本
-  - 在哪能定义脚本
-  - 脚本执行顺序
-- Cookie
-- Tests
+- [脚本](#脚本)
+  - [在哪能定义脚本](#在哪能定义脚本)
+  - [脚本执行顺序](#脚本执行顺序)
+- [Cookie](#Cookie)
+- [Tests 定义脚本](#tests-定义脚本)
+- [内置动态变量](#内置动态变量)
+  - [使用](#使用)
+  - [node 库](#node-库)
+  - [其它库](#其它库)
 
 ------
 
@@ -90,9 +94,13 @@ let path = require('path');
 
 #### node 库
 
+- 各个库的使用可以到 [node](https://nodejs.org/docs/latest-v15.x/api/) 官网上查看
+
 - path、assert、buffer、util、url、punycode、querystring、string-decoder、stream、timers、events
 
 #### 其它库
+
+- 各个库的使用可以到 [npm](https://www.npmjs.com/) 上搜索
 
 - ajv、atob、btoa、chai、cheerio、crypto-js、csv-parese/lib/sync、lodash、moment、postman-collection、tv4、uuid、xml2js
 
