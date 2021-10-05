@@ -69,7 +69,12 @@ module.exports = {
             '/tool/': [
                 {
                     title: 'postman',
-                    path: '/tool/postman/Postman'
+                    path: '/tool/postman/Postman',
+                    sidebarDepth: 2,
+                    children: [
+                        '/tool/postman/Postman',
+                        '/tool/postman/Script'
+                    ]
                 }
             ]
         },
