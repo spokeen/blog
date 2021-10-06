@@ -42,6 +42,10 @@ typora-root-url: ..\..\.vuepress\public
 
 ![sendCookie](/postman/sendCookie.png)
 
+#### 批量流水线发送请求
+
+![runner](/postman/runner.png)
+
 ### 接受请求
 
 - Save Reponse：保存请求响应，方便下次查看
