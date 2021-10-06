@@ -4,23 +4,9 @@ typora-root-url: ..\..\.vuepress\public
 
 # postman
 
-目录
+------
 
-- 版本
-- 发送请求
-  - 发送查询参数的请求
-  - 发送路径参数的请求
-  - 发送请求体
-  - 发送请求头
-  - 发送cookie
-- 接受请求
-  - Visualize 结果可视化
-- 变量
-  - 类型
-  - 自定义变量
-  - 引入变量
-  - 使用变量
-- 
+[[TOC]]
 
 ------
 
@@ -32,7 +18,7 @@ typora-root-url: ..\..\.vuepress\public
 
 #### 发送查询参数的请求
 
-![](/postman/sendQueryParameter.png)
+![sendQueryParameter](/postman/sendQueryParameter.png)
 
 #### 发送路径参数的请求
 

@@ -138,6 +138,9 @@ module.exports = {
             }, {
                 prefix: '/blog'
             })
+        },
+        toc: {
+            includeLevel: [2, 3, 4, 5]
         }
     }
   }
