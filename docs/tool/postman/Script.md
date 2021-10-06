@@ -24,7 +24,7 @@
 
 #### 在哪能定义脚本
 
-![excute](/blog/postman/excute.png)
+![excute](/postman/excute.png)
 
 #### 脚本执行顺序
 
