@@ -30,6 +30,14 @@ module.exports = {
         sidebar:{
             '/computer/': [
                 {
+                    title: '规范',
+                    path: '/computer/specifications/BEM',
+                    sidebarDepth: 2,
+                    children: [
+                        '/computer/specifications/BEM'
+                    ]
+                },
+                {
                     title: 'html',
                     path: '/computer/html/Html',
                     sidebarDepth: 2,
