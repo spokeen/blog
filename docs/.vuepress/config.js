@@ -87,7 +87,7 @@ module.exports = {
         repoLabel: 'Github',
         editLinks: true,
         docsDir: 'docs',
-        editLinkText: '有错误? edit',
+        editLinkText: '有错误 -> edit',
         nextLinks: false,
         prevLinks: false
     },
