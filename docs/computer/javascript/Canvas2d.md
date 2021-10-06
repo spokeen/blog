@@ -23,7 +23,7 @@ canvas：返回 `CanvasRenderingContext2D`  对应的 canvas 元素
 
 ### 路径样式
 
-#### [lineCap](../examples/canvas2d/路径样式.md)
+#### [lineCap](./examples/canvas2d/路径样式.md)
 
 ```markdown
 描述：线条端点的样式
