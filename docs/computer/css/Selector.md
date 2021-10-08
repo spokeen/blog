@@ -26,6 +26,11 @@ parent-element > child-element {}
 
 ## 后代选择器
 
+```
+// 选中 parent 元素所有的后代元素 child(包括z)
+parent child {}
+```
+
 ## 兄弟选择器
 
 ## id 选择器
