@@ -17,6 +17,11 @@ p + img {}
 
 ## 子选择器
 
+```
+// 选中 parent-element 的直接后代 child-element
+parent-element > child-element {}
+```
+
 ## 类选择器
 
 ## 后代选择器
