@@ -51,7 +51,8 @@ module.exports = {
                     sidebarDepth: 2,
                     children: [
                         '/computer/css/Css',
-                        '/computer/css/Flex'
+                        '/computer/css/Flex',
+                        '/computer/css/Selector'
                     ]
                 },
                 {
