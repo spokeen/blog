@@ -72,6 +72,14 @@ module.exports = {
                     children: [
                         '/computer/node/Node'
                     ]
+                },
+                {
+                    title: '框架',
+                    path: '/computer/frame/Webpack',
+                    sidebarDepth: 2,
+                    children: [
+                        '/computer/frame/Webpack'
+                    ]
                 }
             ],
             '/openProject/': [
