@@ -40,7 +40,19 @@ module.exports = (env, argv) => {
 }
 ```
 
+#### context
 
+- 作用：设置 entry 和 loader 的相对路径
+
+```
+module.exports = {
+	context: path.resolve(__dirname, 'src')
+}
+```
+
+#### entry
+
+- 
 
 ## 完整配置
 
