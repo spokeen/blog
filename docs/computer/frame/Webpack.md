@@ -27,3 +27,27 @@ webpack --config dev.config.js
 
 #### mode
 
+- 作用：用来设置 `process.env.NODE_ENV` 的值
+- 默认值：`production`
+- 用法
+
+```
+// package.json
+webpack --mode=development
+// webpack.config.js
+module.exports = (env, argv) => {
+	console.log(argv.mode);
+}
+```
+
+
+
+## 完整配置
+
+```
+module.exports = {
+	mode: 'production',
+	
+}
+```
+
