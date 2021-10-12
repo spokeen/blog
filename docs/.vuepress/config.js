@@ -78,7 +78,8 @@ module.exports = {
                     path: '/computer/frame/Webpack',
                     sidebarDepth: 2,
                     children: [
-                        '/computer/frame/Webpack'
+                        '/computer/frame/Webpack',
+                        '/computer/frame/Chai'
                     ]
                 }
             ],
