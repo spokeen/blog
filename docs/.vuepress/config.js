@@ -79,7 +79,8 @@ module.exports = {
                     sidebarDepth: 2,
                     children: [
                         '/computer/frame/Webpack',
-                        '/computer/frame/Chai'
+                        '/computer/frame/Chai',
+                        '/computer/frame/Mocha'
                     ]
                 }
             ],
