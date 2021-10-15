@@ -80,7 +80,8 @@ module.exports = {
                     children: [
                         '/computer/frame/Webpack',
                         '/computer/frame/Chai',
-                        '/computer/frame/Mocha'
+                        '/computer/frame/Mocha',
+                        '/computer/frame/Express'
                     ]
                 }
             ],
