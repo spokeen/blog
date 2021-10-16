@@ -74,7 +74,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: '框架',
+                    title: 'npm 包',
                     path: '/computer/frame/Webpack',
                     sidebarDepth: 2,
                     children: [
@@ -83,6 +83,11 @@ module.exports = {
                         '/computer/frame/Mocha',
                         '/computer/frame/Express'
                     ]
+                },
+                {
+                    title: '数据库',
+                    path: '/computer/database/Redis',
+                    sidebarDepth: 2
                 }
             ],
             '/openProject/': [
