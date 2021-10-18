@@ -66,6 +66,10 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'react',
+                    path: '/computer/react/'
+                },
+                {
                     title: 'node',
                     path: '/computer/node/Node',
                     sidebarDepth: 2,
@@ -74,7 +78,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'npm 包',
+                    title: 'npm',
                     path: '/computer/frame/Webpack',
                     sidebarDepth: 2,
                     children: [
@@ -101,6 +105,15 @@ module.exports = {
                     children: [
                         '/tool/postman/Postman',
                         '/tool/postman/Script'
+                    ]
+                },
+                {
+                    title: 'Docker',
+                    path: '/tool/docker/Docker',
+                    sidebarDepth: 2,
+                    children: [
+                        '/tool/docker/Docker',
+                        '/tool/docker/Kubernetes'
                     ]
                 }
             ]
